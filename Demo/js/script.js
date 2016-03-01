@@ -58,6 +58,8 @@ var lghtng_15min = L.tileLayer.wms("http://nowcoast.noaa.gov/arcgis/services/now
 
 
 // adds radio controls to map
+var baseMaps = {};
+
 var overlayMaps = {
 	"Wildfire/Drought": wldfre_3_7day,
   "Humidity": rhmd_24hr,
